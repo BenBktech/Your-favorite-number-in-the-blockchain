@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sigmar+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+#root {
+  background: #F0F0F2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  color: #8C7E51;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.description {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.App {
+  text-align: center;
+  padding: 1rem;
+  width: 50%;
+}
+
+input[type=number] {
+  color: #8C7E51;
+  border: 0;
+  padding: 0.5rem 1rem;
+  background: #f2f2f2;
+  border: 1px solid #d4d4d4;
+  width: 50%;
+  border-top-left-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+button {
+  background: #8C7E51;
+  border: 0;
+  padding: 0.5rem 1rem;
+  color: #f2f2f2;
+  border: 1px solid #d4d4d4;
+  border-left: 0;
+  margin-bottom: 1rem;
+  width: 50%;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.favoriteNumber strong {
+  color: #8C7E51;
+}
+
+.success, .error {
+  color: #f2f2f2;
+  border-radius: .3rem;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.success {
+  background: #898C3A;
+}
+
+.error {
+  background: #8c3f3a;
+}
+
+@media all and (max-width: 767px) {
+  .App {
+    width: 100%;
+  }
+}
